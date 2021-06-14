@@ -1,0 +1,113 @@
+/* Write some CSS below */
+body {
+	font-family: Overpass, serif;
+	color: white;
+	font-size: 18px;
+	margin: 0;
+}
+
+h1,h2,h3 { 
+	font-family: Chivo, serif;
+	color:#404043;
+}
+
+p {
+	font-family: Overpass, serif;
+	color: #404042;
+	opacity: 0.6;
+}
+
+a { 
+	color: #0D1FC6;
+	font-family: Overpass, serif;
+	text-decoration: none;
+	transition: .3s;
+	font-weight: bold;
+}
+
+a:hover {
+	color: grey;
+}
+
+.banner {
+	background-image: url('images/background.jpg');
+	background-size: cover;
+	padding: 160px 0;
+	text-align: center;
+
+}
+
+.banner h1{
+	color: white;
+	font-size: 45px;
+	margin:0;
+}
+
+.banner p{
+	color: white;
+	opacity: 0.7;
+	font-size: 25px;
+}
+
+.buttom-blue {
+	color: white;
+	background-color: lightblue;
+	padding: 16px 40px;
+	font-size: 20px;
+	border-radius: 60px;
+}
+
+.container {
+	margin: 40px;
+	margin-left: 20px;
+}
+
+.card-white {
+	background: white;
+	text-align: center;
+	width: 200px;
+	border-radius: 4px;
+	padding: 25px;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card-white img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.footer { 
+	background-color: grey;
+	color: white;
+	padding: 24px;
+	text-align: left;
+	margin-top: 40px;
+
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	margin: 10px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+
+@media (max-width: 800px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+}
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  // CSS for this breakpoint
+}
+
+
